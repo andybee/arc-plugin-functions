@@ -28,7 +28,7 @@ module.exports = {
     customLambdas: ({ arc, inventory }) => {
       // check the plugin is configured
       if (!Array.isArray(arc[pragmaName])) {
-        return
+        return []
       }
       // iterate config array and build customLambdas response
       const lambdas = arc[pragmaName].map((param) => {
