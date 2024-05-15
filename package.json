@@ -1,6 +1,6 @@
 {
   "name": "arc-plugin-functions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplifies the creation of event-less custom Lambda functions in Architect",
   "author": "Andy Buckingham <andy@andybee.com>",
   "main": "src/index.js",
